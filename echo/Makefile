@@ -1,4 +1,3 @@
-
 CXX = g++
 
 CXXFLAGS = -Wall -Wextra -g
