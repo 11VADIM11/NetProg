@@ -2,9 +2,9 @@ CXX = g++
 
 CXXFLAGS = -Wall -Wextra -g
 
-TARGET = DaytimeClient
+TARGET = EchoClient
 
-SRCS = DaytimeClient.cpp
+SRCS = EchoClient.cpp
 
 all: $(TARGET)
 
@@ -13,4 +13,3 @@ $(TARGET): $(SRCS)
 
 clean:
 	rm -f $(TARGET)
-
